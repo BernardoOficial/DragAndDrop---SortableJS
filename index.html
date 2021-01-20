@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+
+    <!-- Google fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section class="dragAndDrop__content" data-dragAndDrop>
+
+        <div class="dragAndDrop__content__item">
+            <figure>
+                <img class="dragAndDrop__content__item--image" src="./images/faces-01.jpg" alt="Marcelo Sousa">
+            </figure>
+
+            <div class="dragAndDrop__content__item--infopessoais">
+                <p class="infopessoais__cargo">Desenvolvedor Front-End Junior</p>
+                <p class="infopessoais__nome">Marcelo Sousa</p>
+                <p class="infopessoais__empresa">Google LLC</p>
+            </div>
+
+            <div class="dragAndDrop__content__item--tecnologias">
+                <p class="tecnologia__nome">React</p>
+                <p class="tecnologia__nome">Javascript</p>
+                <p class="tecnologia__nome">HTML</p>
+                <p class="tecnologia__nome">CSS</p>
+                <p class="tecnologia__nome">SASS</p>
+            </div>
+
+        </div>
+
+        <div class="dragAndDrop__content__item">
+            <figure>
+                <img class="dragAndDrop__content__item--image" src="./images/faces-02.jpg" alt="Karina Silva">
+            </figure>
+
+            <div class="dragAndDrop__content__item--infopessoais">
+                <p class="infopessoais__cargo">Desenvolvedora Back-End Junior</p>
+                <p class="infopessoais__nome">Karina Silva</p>
+                <p class="infopessoais__empresa">LinkedIn</p>
+            </div>
+
+            <div class="dragAndDrop__content__item--tecnologias">
+                <p class="tecnologia__nome">Node</p>
+                <p class="tecnologia__nome">Javascript</p>
+                <p class="tecnologia__nome">HTML</p>
+                <p class="tecnologia__nome">CSS</p>
+                <p class="tecnologia__nome">Express</p>
+            </div>
+
+        </div>
+
+        <div class="dragAndDrop__content__item">
+            <figure>
+                <img class="dragAndDrop__content__item--image" src="./images/faces-03.jpg" alt="Rebeca Pereira">
+            </figure>
+
+            <div class="dragAndDrop__content__item--infopessoais">
+                <p class="infopessoais__cargo">Desenvolvedora Front-End Pleno</p>
+                <p class="infopessoais__nome">Rebeca Pereira</p>
+                <p class="infopessoais__empresa">Uber Brasil</p>
+            </div>
+
+            <div class="dragAndDrop__content__item--tecnologias">
+                <p class="tecnologia__nome">Angular</p>
+                <p class="tecnologia__nome">React</p>
+                <p class="tecnologia__nome">Node</p>
+                <p class="tecnologia__nome">Javascript</p>
+                <p class="tecnologia__nome">HTML</p>
+                <p class="tecnologia__nome">CSS</p>
+                <p class="tecnologia__nome">SASS</p>
+            </div>
+
+        </div>
+
+        <div class="dragAndDrop__content__item">
+            <figure>
+                <img class="dragAndDrop__content__item--image" src="./images/faces-04.jpg" alt="Patricia Linda">
+            </figure>
+
+            <div class="dragAndDrop__content__item--infopessoais">
+                <p class="infopessoais__cargo">Desenvolvedora Fullstack Pleno</p>
+                <p class="infopessoais__nome">Patricia Linda</p>
+                <p class="infopessoais__empresa">Facebook Brasil</p>
+            </div>
+
+            <div class="dragAndDrop__content__item--tecnologias">
+                <p class="tecnologia__nome">Angular</p>
+                <p class="tecnologia__nome">React</p>
+                <p class="tecnologia__nome">Node</p>
+                <p class="tecnologia__nome">Javascript</p>
+                <p class="tecnologia__nome">HTML</p>
+                <p class="tecnologia__nome">CSS</p>
+                <p class="tecnologia__nome">SASS</p>
+                <p class="tecnologia__nome">Express</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Sortable.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

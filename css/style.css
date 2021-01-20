@@ -1,0 +1,91 @@
+:root {
+    font-size: 10px;
+    line-height: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    font-family: 'Montserrat', sans-serif;
+}
+.dragAndDrop__content__item {
+    border-left: 4px solid #5DA5A4;
+    background-color: #ffffff;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 1px 1px 30px 10px #DDEBEE;
+
+    margin: 30px 0;
+}
+.dragAndDrop__content__item figure {
+    margin-right: 20px;
+}
+.dragAndDrop__content__item--image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.dragAndDrop__content__item--infopessoais {
+    margin-right: 40px;
+}
+.dragAndDrop__content__item--infopessoais .infopessoais__cargo {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    color: #5DA5A4;
+
+    margin-bottom: 5px;
+}
+.dragAndDrop__content__item--infopessoais .infopessoais__nome {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: italic;
+
+    margin-bottom: 5px;
+}
+.dragAndDrop__content__item--infopessoais .infopessoais__empresa {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.dragAndDrop__content__item--tecnologias {
+    display: flex;
+    margin-right: 20px;
+}
+.dragAndDrop__content__item--tecnologias .tecnologia__nome {
+    margin: 0 5px;
+    padding: 5px 10px;
+
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-style: italic;
+    font-weight: 500;
+    color: #5DA5A4;
+
+    background-color: #EEF7F4;
+    border-radius: 9%;
+}
+
+.chosen {
+    transition: 0.3s linear;
+    transform: scale(1.1);
+}
+.ghost {
+    opacity: 0.6;
+}
