@@ -82,6 +82,7 @@ body {
     border-radius: 9%;
 }
 
+/* CLASSES DO SORTABLE.JS */
 .chosen {
     transition: 0.3s linear;
     transform: scale(1.1);
