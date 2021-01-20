@@ -8,4 +8,4 @@ O proposito de fazer esse projeto foi para treinar a utilização da biblioteca 
 
 ## Link para o repositório do Sortable:
 
-![Link para o repositório do Sortable](https://github.com/SortableJS/Sortable#cdn)
+[repositório do Sortable](https://github.com/SortableJS/Sortable#cdn)
